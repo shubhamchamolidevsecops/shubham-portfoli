@@ -1,0 +1,44 @@
+main{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+} 
+section#about {
+    background-color: rgb(18, 18, 62);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(94, 79, 79, 0.1);
+}
+section#about h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+ection#about h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #ff6347;
+}
+
+section#about p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+section#about ul {
+    list-style: disc inside;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+section#about ul li {
+    margin-bottom: 0.5rem;
+}
+
+section#about a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+section#about a:hover {
+    text-decoration: underline;
+}
